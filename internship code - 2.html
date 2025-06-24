@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appolo Pharmacy</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+    }
+
+    .top-bar {
+      background-color: #003399;
+      color: white;
+      font-size: 15px;
+      padding: 8px 500px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar {
+      background-color: #003399;
+      padding: 15px 80px; 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 80px; 
+      margin-right: 20px; 
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 80px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .book-btn {
+      background-color: #1e90ff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .hero {
+      margin-top: 1px;
+      height: 80vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .hero-text {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 500px;
+    }
+
+    .hero-text h1 {
+      font-size: 32px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>📍 khodiyar nagar, gundala road, gondal. 360660 </span>
+    <span>📞 6355990290 </span>
+  </div>
+
+  <div class="navbar">
+    <div class="logo">
+      <img src="apollo far.png" alt="Apollo Pharmacy Logo">
+    </div>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Services</a>
+      <a href="#">Special Offers</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <button class="book-btn" onclick="bookNow()">Book Online</button>
+  </div>
+
+  <div class="hero" style="background: url('apollo far back .png') no-repeat center center/cover;">
+    <div class="hero-text">
+      <h1>Your Neighborhood<br>
+      Pharmacy in Calgary -<br>
+      Care You Can Count On</h1>
+    </div>
+  </div>
+
+  <script>
+    function bookNow() {
+      window.location.href = "https://www.apollopharmacy.in/medical-stores/apollo-pharmacy-apollo_pharmacy_gundala_chokdi-gondal-11960?[object%20Object]";
+    }
+  </script>
+
+</body>
+</html>
